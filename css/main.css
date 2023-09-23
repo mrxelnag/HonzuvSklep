@@ -443,7 +443,7 @@ nav .logo img {
 /*=====HERO PAGE=====*/
 #heroPage {
     padding: 0;
-    height: 70vh;
+    height: min(70vh, 600px);
     background-color: rgba(0, 0, 0, 0.411);
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/depositphotos_46220211-stock-photo-wine-cellar-full-of-wine.jpg);
     /* Black and white */
@@ -510,12 +510,6 @@ nav .logo img {
     font-size: 3.2rem;
 }
 
-.separator img {
-    rotate: 90deg;
-    filter: var(--primary-clr-forSVG);
-    opacity: 50%;
-    height: 20px;
-}
 
 .openingTable {
     justify-content: space-between;
@@ -763,9 +757,9 @@ nav .logo img {
         gap: 1rem;
     }
 
-    .separator img {
-        rotate: 0deg;
-        height: 20px;
+    .separator{
+        width: 80px;
+        height: 3px;
     }
 
     .hoursPageText {
