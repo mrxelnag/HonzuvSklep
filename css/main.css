@@ -359,6 +359,14 @@ nav {
     z-index: 10;
     color: #f2f5f7;
 }
+.navButton{
+    background-color: var(--primary-clr);
+    padding: 5px 10px;
+    border: 1px solid white;
+    border-radius: 100px;
+    transition: 500ms;
+    color: inherit;
+}
 
 /*Styling logo*/
 nav .logo {

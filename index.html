@@ -5,7 +5,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, user-scalable=no">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <meta name="description" content="Honzův Vinný Sklep | Navštivte náš vinný sklípek na Moravě a objevte bohatou tradici a kvalitu našich vín. ">
+  <meta name="description"
+    content="Honzův Vinný Sklep | Navštivte náš vinný sklípek na Moravě a objevte bohatou tradici a kvalitu našich vín. ">
   <link rel="stylesheet" href="css/main.css" />
   <meta name="keywords" content="Sklep,sklípek,moravské,vinné,sklepy,sklípky,víno,burčák">
   <meta name="robots" content="index, follow">
@@ -43,6 +44,7 @@
         <li><a class="nav-link navHash" href="#openingHours">Otevírací Doba</a></li>
         <li><a class="nav-link navHash" href="#services">Nabídka</a></li>
         <li><a class="nav-link navHash" href="#contact">Kontakt</a></li>
+        <li><button id="openWineList" class="navButton">Vinný Lístek</button></li>
       </ul>
     </nav>
   </header>
@@ -59,9 +61,7 @@
     <div class="aboutPageContent">
       <div class="title aboutTitle">
         <h2 class="animeClass animeScaleIn">O mém sklípku</h2>
-        <div class="underLine animeClass animeScaleIn">
-          <img src="svg/cut-outline.svg" alt="Logo Image">
-        </div>
+        <div class="titleUnderline animeClass animeScaleIn"></div>
       </div>
       <div class="aboutPageContentText">
         <p class="animeClass animeScaleIn">Skilled and up to date with the latest hair styles, hair cuts, and color
@@ -519,7 +519,7 @@
               <span>Majitel sklípku</span>
             </div>
             <div class="contactPersonContacts d-flex-row content-center">
-                <img class="icon" src="/svg/icons/telephone.svg" aria-hidden="true">
+              <img class="icon" src="/svg/icons/telephone.svg" aria-hidden="true">
               <span class="contactPerconContactsPhone">+420 606 447 225</span>
             </div>
           </div>
@@ -534,7 +534,7 @@
               <span>Role</span>
             </div>
             <div class="contactPersonContacts d-flex-row content-center">
-                <img class="icon" src="/svg/icons/telephone.svg">
+              <img class="icon" src="/svg/icons/telephone.svg">
               <span class="contactPerconContactsPhone">+420 606 447 225</span>
             </div>
           </div>
@@ -544,16 +544,17 @@
 
   </section>
   <footer class="d-flex-row content-center">
-    <span>Copyright Honzuv Sklep © 2023. Vytvořil <a href="https://jiripatejdl.cz" target="_blank" class="">Jiří
-        Patejdl</a></span>
+    <span>Copyright Honzuv Sklep © <span id="currentYear">2023</span>. Vytvořil <a href="https://jiripatejdl.cz"
+        target="_blank" class="">Jiří Patejdl</a></span>
   </footer>
   <script type="text/javascript" src="js/main.js"></script>
   <script type="text/javascript" src="js/navigation.js"></script>
 
   <script type="text/javascript" src="js/animace.js"></script>
-  <!--Close navbar on small devices when clicking somewhere else / on navlink-->
   <script>
-
+    // JavaScript to update the year dynamically
+    const currentYear = new Date().getFullYear();
+    document.getElementById('currentYear').textContent = currentYear;
   </script>
   <!--Remove Hast from the link-->
   <script>
