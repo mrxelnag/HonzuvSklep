@@ -204,6 +204,7 @@ dialog::backdrop {
 .winePrice:nth-of-type(odd) {
     width: 60px;
 }
+
 .titleUnderline {
     width: 80px;
     height: 3px;
@@ -211,13 +212,14 @@ dialog::backdrop {
     background-color: var(--primary-clr-o30);
     margin-bottom: 1em;
 }
+
 .separator {
     margin-inline: 20px;
     height: 80px;
     width: 3px;
     border-radius: 1em;
     background-color: var(--primary-clr-o30);
- 
+
 }
 
 @media screen and (max-width: 800px) {
@@ -342,7 +344,7 @@ a:hover {
         'wght' 200,
         'GRAD' 0,
         'opsz' 24;
-        font-size: 40px !important;
+    font-size: 40px !important;
     color: var(--primary-clr);
 }
 
@@ -458,9 +460,11 @@ nav .logo img {
     text-align: center;
 }
 
-.heroPageLogo svg {
+.heroPageLogo {
     filter: invert(97%) sepia(3%) saturate(11%) hue-rotate(37deg) brightness(102%) contrast(105%) !important;
     color: white;
+    width: 400px;
+
 }
 
 /*======About======*/
@@ -635,7 +639,8 @@ nav .logo img {
     border-radius: 1rem;
     box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.25);
 }
-.contactPersonDetails span{
+
+.contactPersonDetails span {
     font-size: 16px;
 }
 
@@ -673,9 +678,7 @@ nav .logo img {
     gap: 0.5em;
 }
 
-.contactPersonContacs {
-    
-}
+.contactPersonContacs {}
 
 /*====Stying for small screens====*/
 @media screen and (max-width: 800px) {
@@ -772,7 +775,7 @@ nav .logo img {
         gap: 1rem;
     }
 
-    .separator{
+    .separator {
         width: 80px;
         height: 3px;
     }
@@ -805,7 +808,16 @@ nav .logo img {
     }
 }
 
+@media screen and (max-width: 450px) {
+    .heroPageLogo {
+        width: 300px;
+    }
+}
+
 @media screen and (max-width: 330px) {
+    .heroPageLogo {
+        width: 280px;
+    }
     .tableItem {
         font-size: 1.2rem;
     }
