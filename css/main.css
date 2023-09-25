@@ -160,6 +160,9 @@ dialog::backdrop {
     justify-content: space-between;
     border-bottom: 1px solid var(--primary-clr-o30);
 }
+.winePriceSingle{
+    display: none;
+}
 
 .wineWrapper {
     margin-bottom: 20px;
@@ -176,6 +179,7 @@ dialog::backdrop {
     padding: 0.5em 0;
     display: flex;
     justify-content: space-between;
+
 }
 
 .wineAmount {
@@ -241,17 +245,22 @@ dialog::backdrop {
     .wineName,
     .wineDescription,
     .wineValues {
-        text-align: center;
+        text-align: left;
+    }
+    .wine-dl, .winePriceSeparator{
+        display: none;
+    }
+    .winePriceSingle{
+        display: inline-block;
     }
 
     .wine {
-        flex-direction: column;
-        align-items: center;
-        margin-bottom: 10px;
+       
     }
 
     .wineAmount {
-        margin-top: 10px;
+
+        flex-direction: column;
     }
 
     .winePrice {

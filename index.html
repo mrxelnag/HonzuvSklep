@@ -44,7 +44,7 @@
         <li><a class="nav-link navHash" href="#openingHours">Otevírací Doba</a></li>
         <li><a class="nav-link navHash" href="#services">Nabídka</a></li>
         <li><a class="nav-link navHash" href="#contact">Kontakt</a></li>
-        <li><button id="openWineList" class="navButton">Vinný Lístek</button></li>
+        <li><button id="openWineListNav" class="navButton">Vinný Lístek</button></li>
       </ul>
     </nav>
   </header>
@@ -83,16 +83,16 @@
       </div>
       <div class="openingTable d-flex-col animeClass animeFromRight">
         <div class="tableItem d-flex-row">
-          <span class="day">Pondělí - Pátek</span>
-          <span class="time">9:00 - 18:00</span>
+          <span class="day">Pondělí - Středa</span>
+          <span class="time">Po tel. domluvě</span>
         </div>
         <div class="tableItem d-flex-row">
-          <span class="day">Sobota</span>
-          <span class="time">9:00 - 12:00</span>
+          <span class="day">Čtvrtek - Sobota</span>
+          <span class="time">9:00 - 19:00</span>
         </div>
         <div class="tableItem d-flex-row">
           <span class="day">Neděle</span>
-          <span class="time">Zavřeno</span>
+          <span class="time">9:00 - 14:00</span>
         </div>
       </div>
     </div>
@@ -161,10 +161,10 @@
         <div class="wineType">
           <h4>Bílá vína</h4>
           <div class="wineAmount">
-            <span class="winePrice">1dl</span>
-            <span class="winePrice disabled">|</span>
-            <span class="winePrice">2dl</span>
-            <span class="winePrice disabled">|</span>
+            <span class="wine-dl winePrice">1dl</span>
+            <span class="winePrice winePriceSeparator disabled">|</span>
+            <span class="wine-dl winePrice">2dl</span>
+            <span class="winePrice winePriceSeparator disabled">|</span>
             <span class="winePrice">0.75l</span>
           </div>
         </div>
@@ -176,11 +176,11 @@
               <div class="wineValues">Zbytkový cukr 0.4g/l | Kyseliny 5.4g/l | Alkohol 12.5%</div>
             </div>
             <div class="wineAmount">
-              <span class="winePrice">30</span>
-              <span class="winePrice disabled">|</span>
-              <span class="winePrice">60</span>
-              <span class="winePrice disabled">|</span>
-              <span class="winePrice">180</span>
+              <span class="wine-dl winePrice">30</span>
+              <span class="winePrice winePriceSeparator disabled">|</span>
+              <span class="wine-dl winePrice">60</span>
+              <span class="winePrice winePriceSeparator disabled">|</span>
+              <span class="winePrice">180<span class="winePriceSingle">,-</span></span>
             </div>
           </div>
           <div class="wine">
@@ -190,11 +190,11 @@
               <div class="wineValues">Zbytkový cukr 3.1g/l | Kyseliny 6.7g/l | Alkohol 12.5%</div>
             </div>
             <div class="wineAmount">
-              <span class="winePrice">30</span>
-              <span class="winePrice disabled">|</span>
-              <span class="winePrice">60</span>
-              <span class="winePrice disabled">|</span>
-              <span class="winePrice">170</span>
+              <span class="wine-dl winePrice">30</span>
+              <span class="winePrice winePriceSeparator disabled">|</span>
+              <span class="wine-dl winePrice">60</span>
+              <span class="winePrice winePriceSeparator disabled">|</span>
+              <span class="winePrice">170<span class="winePriceSingle">,-</span></span>
             </div>
           </div>
           <div class="wine">
@@ -204,25 +204,11 @@
               <div class="wineValues">Zbytkový cukr 4.0g/l | Kyseliny 5.3g/l | Alkohol 11.5%</div>
             </div>
             <div class="wineAmount">
-              <span class="winePrice">30</span>
-              <span class="winePrice disabled">|</span>
-              <span class="winePrice">60</span>
-              <span class="winePrice disabled">|</span>
-              <span class="winePrice">150</span>
-            </div>
-          </div>
-          <div class="wine">
-            <div class="wineDetail">
-              <div class="wineName">Laurot Rosé 2021</div>
-              <div class="wineDescription">Pozdní sběr, polosladké</div>
-              <div class="wineValues">Zbytkový cukr 29.5g/l | Kyseliny 7.7g/l | Alkohol 12.0%</div>
-            </div>
-            <div class="wineAmount">
-              <span class="winePrice">30</span>
-              <span class="winePrice disabled">|</span>
-              <span class="winePrice">60</span>
-              <span class="winePrice disabled">|</span>
-              <span class="winePrice">180</span>
+              <span class="wine-dl winePrice">30</span>
+              <span class="winePrice winePriceSeparator disabled">|</span>
+              <span class="wine-dl winePrice">60</span>
+              <span class="winePrice winePriceSeparator disabled">|</span>
+              <span class="winePrice">150<span class="winePriceSingle">,-</span></span>
             </div>
           </div>
           <div class="wine">
@@ -232,11 +218,11 @@
               <div class="wineValues">Zbytkový cukr 11.0g/l | Kyseliny 6.3g/l | Alkohol 12.%</div>
             </div>
             <div class="wineAmount">
-              <span class="winePrice">30</span>
-              <span class="winePrice disabled">|</span>
-              <span class="winePrice">60</span>
-              <span class="winePrice disabled">|</span>
-              <span class="winePrice">170</span>
+              <span class="wine-dl winePrice">30</span>
+              <span class="winePrice winePriceSeparator disabled">|</span>
+              <span class="wine-dl winePrice">60</span>
+              <span class="winePrice winePriceSeparator disabled">|</span>
+              <span class="winePrice">170<span class="winePriceSingle">,-</span></span>
             </div>
           </div>
           <div class="wine">
@@ -246,11 +232,11 @@
               <div class="wineValues">Zbytkový cukr 12.0g/l | Kyseliny 6.1g/l | Alkohol 12.5%</div>
             </div>
             <div class="wineAmount">
-              <span class="winePrice">30</span>
-              <span class="winePrice disabled">|</span>
-              <span class="winePrice">60</span>
-              <span class="winePrice disabled">|</span>
-              <span class="winePrice">170</span>
+              <span class="wine-dl winePrice">30</span>
+              <span class="winePrice winePriceSeparator disabled">|</span>
+              <span class="wine-dl winePrice">60</span>
+              <span class="winePrice winePriceSeparator disabled">|</span>
+              <span class="winePrice">170<span class="winePriceSingle">,-</span></span>
             </div>
           </div>
           <div class="wine">
@@ -260,11 +246,11 @@
               <div class="wineValues">Zbytkový cukr 0.4g/l | Kyseliny 5.4g/l | Alkohol 12.5%</div>
             </div>
             <div class="wineAmount">
-              <span class="winePrice">30</span>
-              <span class="winePrice disabled">|</span>
-              <span class="winePrice">60</span>
-              <span class="winePrice disabled">|</span>
-              <span class="winePrice">170</span>
+              <span class="wine-dl winePrice">30</span>
+              <span class="winePrice winePriceSeparator disabled">|</span>
+              <span class="wine-dl winePrice">60</span>
+              <span class="winePrice winePriceSeparator disabled">|</span>
+              <span class="winePrice">170<span class="winePriceSingle">,-</span></span>
             </div>
           </div>
           <div class="wine">
@@ -274,21 +260,35 @@
               <div class="wineValues">Zbytkový cukr 14.0g/l | Kyseliny 6.4g/l | Alkohol 11.0%</div>
             </div>
             <div class="wineAmount">
-              <span class="winePrice">30</span>
-              <span class="winePrice disabled">|</span>
-              <span class="winePrice">60</span>
-              <span class="winePrice disabled">|</span>
-              <span class="winePrice">180</span>
+              <span class="wine-dl winePrice">30</span>
+              <span class="winePrice winePriceSeparator disabled">|</span>
+              <span class="wine-dl winePrice">60</span>
+              <span class="winePrice winePriceSeparator disabled">|</span>
+              <span class="winePrice">180<span class="winePriceSingle">,-</span></span>
+            </div>
+          </div>
+          <div class="wine">
+            <div class="wineDetail">
+              <div class="wineName">Frizante Laurot Rosé 2021</div>
+              <div class="wineDescription">Pozdní sběr, polosladké</div>
+              <div class="wineValues">Zbytkový cukr 29.5g/l | Kyseliny 7.7g/l | Alkohol 12.0%</div>
+            </div>
+            <div class="wineAmount">
+              <span class="wine-dl winePrice">30</span>
+              <span class="winePrice winePriceSeparator disabled">|</span>
+              <span class="wine-dl winePrice">60</span>
+              <span class="winePrice winePriceSeparator disabled">|</span>
+              <span class="winePrice">180<span class="winePriceSingle">,-</span></span>
             </div>
           </div>
         </div>
         <div class="wineType">
           <h4>Růžová vína</h4>
           <div class="wineAmount">
-            <span class="winePrice">1dl</span>
-            <span class="winePrice disabled">|</span>
-            <span class="winePrice">2dl</span>
-            <span class="winePrice disabled">|</span>
+            <span class="wine-dl winePrice">1dl</span>
+            <span class="winePrice winePriceSeparator disabled">|</span>
+            <span class="wine-dl winePrice">2dl</span>
+            <span class="winePrice winePriceSeparator disabled">|</span>
             <span class="winePrice">0.75l</span>
           </div>
         </div>
@@ -300,11 +300,11 @@
               <div class="wineValues">Zbytkový cukr 7.0g/l | Kyseliny 5.5g/l | Alkohol 12.0%</div>
             </div>
             <div class="wineAmount">
-              <span class="winePrice">30</span>
-              <span class="winePrice disabled">|</span>
-              <span class="winePrice">60</span>
-              <span class="winePrice disabled">|</span>
-              <span class="winePrice">140</span>
+              <span class="wine-dl winePrice">30</span>
+              <span class="winePrice winePriceSeparator disabled">|</span>
+              <span class="wine-dl winePrice">60</span>
+              <span class="winePrice winePriceSeparator disabled">|</span>
+              <span class="winePrice">140<span class="winePriceSingle">,-</span></span>
             </div>
           </div>
           <div class="wine">
@@ -314,21 +314,21 @@
               <div class="wineValues">Zbytkový cukr 20.0g/l | Kyseliny 5.4g/l | Alkohol 11.5%</div>
             </div>
             <div class="wineAmount">
-              <span class="winePrice">30</span>
-              <span class="winePrice disabled">|</span>
-              <span class="winePrice">60</span>
-              <span class="winePrice disabled">|</span>
-              <span class="winePrice">140</span>
+              <span class="wine-dl winePrice">30</span>
+              <span class="winePrice winePriceSeparator disabled">|</span>
+              <span class="wine-dl winePrice">60</span>
+              <span class="winePrice winePriceSeparator disabled">|</span>
+              <span class="winePrice">140<span class="winePriceSingle">,-</span></span>
             </div>
           </div>
         </div>
         <div class="wineType">
           <h4>Červená vína</h4>
           <div class="wineAmount">
-            <span class="winePrice">1dl</span>
-            <span class="winePrice disabled">|</span>
-            <span class="winePrice">2dl</span>
-            <span class="winePrice disabled">|</span>
+            <span class="wine-dl winePrice">1dl</span>
+            <span class="winePrice winePriceSeparator disabled">|</span>
+            <span class="wine-dl winePrice">2dl</span>
+            <span class="winePrice winePriceSeparator disabled">|</span>
             <span class="winePrice">0.75l</span>
           </div>
         </div>
@@ -340,11 +340,11 @@
               <div class="wineValues">Zbytkový cukr 1.8g/l | Kyseliny 5.0g/l | Alkohol 11.5%</div>
             </div>
             <div class="wineAmount">
-              <span class="winePrice">30</span>
-              <span class="winePrice disabled">|</span>
-              <span class="winePrice">60</span>
-              <span class="winePrice disabled">|</span>
-              <span class="winePrice">140</span>
+              <span class="wine-dl winePrice">30</span>
+              <span class="winePrice winePriceSeparator disabled">|</span>
+              <span class="wine-dl winePrice">60</span>
+              <span class="winePrice winePriceSeparator disabled">|</span>
+              <span class="winePrice">140<span class="winePriceSingle">,-</span></span>
             </div>
           </div>
           <div class="wine">
@@ -354,11 +354,11 @@
               <div class="wineValues">Zbytkový cukr 1.8g/l | Kyseliny 5.0g/l | Alkohol 11.5%</div>
             </div>
             <div class="wineAmount">
-              <span class="winePrice">30</span>
-              <span class="winePrice disabled">|</span>
-              <span class="winePrice">60</span>
-              <span class="winePrice disabled">|</span>
-              <span class="winePrice">140</span>
+              <span class="wine-dl winePrice">30</span>
+              <span class="winePrice winePriceSeparator disabled">|</span>
+              <span class="wine-dl winePrice">60</span>
+              <span class="winePrice winePriceSeparator disabled">|</span>
+              <span class="winePrice">140<span class="winePriceSingle">,-</span></span>
             </div>
           </div>
           <div class="wine">
@@ -368,21 +368,21 @@
               <div class="wineValues">Zbytkový cukr 104.0g/l | Kyseliny 4.6g/l | Alkohol 18.0%</div>
             </div>
             <div class="wineAmount">
-              <span class="winePrice">-</span>
-              <span class="winePrice disabled">|</span>
-              <span class="winePrice">-</span>
-              <span class="winePrice disabled">|</span>
-              <span class="winePrice">140</span>
+              <span class="wine-dl winePrice">-</span>
+              <span class="winePrice winePriceSeparator disabled">|</span>
+              <span class="wine-dl winePrice">-</span>
+              <span class="winePrice winePriceSeparator disabled">|</span>
+              <span class="winePrice">140<span class="winePriceSingle">,-</span></span>
             </div>
           </div>
         </div>
         <div class="wineType">
           <h4>Ostatní</h4>
           <div class="wineAmount">
-            <span class="winePrice">1dl</span>
-            <span class="winePrice disabled">|</span>
-            <span class="winePrice">2dl</span>
-            <span class="winePrice disabled">|</span>
+            <span class="wine-dl winePrice">1dl</span>
+            <span class="winePrice winePriceSeparator disabled">|</span>
+            <span class="wine-dl winePrice">2dl</span>
+            <span class="winePrice winePriceSeparator disabled">|</span>
             <span class="winePrice">0.75l</span>
           </div>
         </div>
@@ -393,11 +393,11 @@
               <div class="wineDescription">odrůda Veltín, sladké, alkohol 0%</div>
             </div>
             <div class="wineAmount">
-              <span class="winePrice">20</span>
-              <span class="winePrice disabled">|</span>
-              <span class="winePrice">40</span>
-              <span class="winePrice disabled">|</span>
-              <span class="winePrice">100</span>
+              <span class="wine-dl winePrice">20</span>
+              <span class="winePrice winePriceSeparator disabled">|</span>
+              <span class="wine-dl winePrice">40</span>
+              <span class="winePrice winePriceSeparator disabled">|</span>
+              <span class="winePrice">100<span class="winePriceSingle">,-</span></span>
             </div>
           </div>
         </div>
@@ -514,7 +514,7 @@
             <img class="contactPersonImage" src="img/edward-cisneros-_H6wpor9mjs-unsplash.jpg" alt="">
           </div>
           <div class="contactPersonDetails">
-            <h3>Honza Matušek</h3>
+            <h3>Honza Matoušek</h3>
             <div class="d-flex-row content-center">
               <span>Majitel sklípku</span>
             </div>

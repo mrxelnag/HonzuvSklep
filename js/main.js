@@ -6,6 +6,10 @@ const openWineList = document.querySelector("#openWineList")
 openWineList.addEventListener("click", () => {
   dialog.showModal()
 })
+const openWineListNav = document.querySelector("#openWineListNav")
+openWineListNav.addEventListener("click", () => {
+  dialog.showModal()
+})
 
 const closeWineList = document.querySelector("#closeWineList")
 closeWineList.addEventListener("click", () => {
