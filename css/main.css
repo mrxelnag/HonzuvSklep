@@ -414,7 +414,7 @@ nav .logo {
 
 nav .logo img {
   height: 3rem;
-  filter: var(--primary-clr-forSVG);
+  /* filter: var(--primary-clr-forSVG); */
 }
 
 /*Styling Links*/
