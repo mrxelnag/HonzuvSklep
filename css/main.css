@@ -8,8 +8,7 @@
 :root {
   --primary-clr: #b0742e;
   --primary-clr-o30: rgba(176, 115, 46, 0.3);
-  --primary-clr-forSVG: invert(45%) sepia(69%) saturate(459%) hue-rotate(352deg)
-    brightness(93%) contrast(89%);
+  --primary-clr-forSVG: invert(45%) sepia(69%) saturate(459%) hue-rotate(352deg) brightness(93%) contrast(89%);
   font-size: 12px;
 }
 
@@ -22,26 +21,28 @@
   scroll-behavior: smooth;
   scroll-margin-top: 5em;
 }
+
 /* Gallery */
-.gallery{
+.gallery {
   display: grid;
 
-  max-width: min(100%,1250px);
+  max-width: min(100%, 1250px);
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-auto-rows: 180px;
   grid-gap: 20px;
 
 }
-.galleryImg{
+
+.galleryImg {
   width: 100%;
   height: 100%;
   object-fit: cover;
   border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   transition: 0.3s ease-in-out;
 }
 
-.galleryImg:hover{
+.galleryImg:hover {
   transform: scale(1.05);
 }
 
@@ -115,6 +116,7 @@ p {
   justify-content: center;
   align-items: center;
   padding: 1rem;
+  gap: 2rem;
   margin-bottom: 1rem;
 }
 
@@ -183,6 +185,7 @@ dialog::backdrop {
   justify-content: space-between;
   border-bottom: 1px solid var(--primary-clr-o30);
 }
+
 .winePriceSingle {
   display: none;
 }
@@ -214,8 +217,7 @@ dialog::backdrop {
   font-style: italic;
 }
 
-.wineValues {
-}
+.wineValues {}
 
 .wineName {
   font-size: 1.4rem;
@@ -269,16 +271,17 @@ dialog::backdrop {
   .wineValues {
     text-align: left;
   }
+
   .wine-dl,
   .winePriceSeparator {
     display: none;
   }
+
   .winePriceSingle {
     display: inline-block;
   }
 
-  .wine {
-  }
+  .wine {}
 
   .wineAmount {
     flex-direction: column;
@@ -392,6 +395,7 @@ nav {
   z-index: 10;
   color: #f2f5f7;
 }
+
 .navButton {
   background-color: var(--primary-clr);
   padding: 5px 10px;
@@ -502,8 +506,7 @@ nav .logo img {
 }
 
 .heroPageLogo {
-  filter: invert(97%) sepia(3%) saturate(11%) hue-rotate(37deg) brightness(102%)
-    contrast(105%) !important;
+  filter: invert(97%) sepia(3%) saturate(11%) hue-rotate(37deg) brightness(102%) contrast(105%) !important;
   color: white;
   width: 400px;
 }
@@ -550,8 +553,7 @@ nav .logo img {
 }
 
 /*=====OPENING HOURS====*/
-.openingHoursPageContent {
-}
+.openingHoursPageContent {}
 
 .hoursPageText {
   text-align: end;
@@ -667,8 +669,7 @@ nav .logo img {
 }
 
 /*Contact*/
-.contactSectionContent {
-}
+.contactSectionContent {}
 
 .contactPageText {
   width: min(700px, 70vw);
@@ -718,11 +719,11 @@ nav .logo img {
   gap: 0.5em;
 }
 
-.contactPersonContacs {
-}
+.contactPersonContacs {}
 
 /*====Stying for small screens====*/
 @media screen and (max-width: 800px) {
+
   /*Styling Navigation*/
   nav {
     position: fixed;
@@ -799,6 +800,7 @@ nav .logo img {
 
 /*Styling Opening Section*/
 @media screen and (max-width: 750px) {
+
   html,
   body {
     max-width: 100vw;
@@ -855,6 +857,7 @@ nav .logo img {
   .heroPageLogo {
     width: 280px;
   }
+
   .tableItem {
     font-size: 1.2rem;
   }
