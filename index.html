@@ -1,498 +1,567 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, user-scalable=no" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="author" content="Jiří Patejdl" />
+    <meta
+      name="description"
+      content="Honzův Vinný Sklep | Navštivte náš vinný sklípek na Moravě a objevte bohatou tradici a kvalitu našich vín. "
+    />
+    <link rel="stylesheet" href="css/main.css" />
+    <meta
+      name="keywords"
+      content="sklep,sklípek,moravské,vinné,sklepy,sklípky,víno,burčák,honzův sklep,honzuv sklep,vinny sklep"
+    />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, user-scalable=no" />
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <meta name="author" content="Jiří Patejdl" />
-  <meta name="description"
-    content="Honzův Vinný Sklep | Navštivte náš vinný sklípek na Moravě a objevte bohatou tradici a kvalitu našich vín. " />
-  <link rel="stylesheet" href="css/main.css" />
-  <meta name="keywords"
-    content="sklep,sklípek,moravské,vinné,sklepy,sklípky,víno,burčák,honzův sklep,honzuv sklep,vinny sklep" />
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
 
-  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+    <meta name="robots" content="index, follow" />
+    <!--Fonts-->
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Nunito"
+      rel="stylesheet"
+    />
+    <!--Icons-->
+    <script
+      src="https://kit.fontawesome.com/c824dac629.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <style></style>
+    <!-- jQuery-->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <title>Honzuv Sklep</title>
+  </head>
 
-  <meta name="robots" content="index, follow" />
-  <!--Fonts-->
-  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" />
-  <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet" />
-  <!--Icons-->
-  <script src="https://kit.fontawesome.com/c824dac629.js" crossorigin="anonymous"></script>
-  <link rel="stylesheet"
-    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-  <style></style>
-  <!-- jQuery-->
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
-  <title>Honzuv Sklep</title>
-</head>
-
-<body>
-  <header>
-    <nav id="navigation">
-      <div class="logo">
-        <a href="#heroPage" class="navHash"><img src="img/HonzaLogo.png" alt="Logo Image" /></a>
+  <body>
+    <header>
+      <nav id="navigation">
+        <div class="logo">
+          <a href="#heroPage" class="navHash"
+            ><img src="img/HonzaLogo.png" alt="Logo Image"
+          /></a>
+        </div>
+        <div class="hamburger">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+        <ul class="nav-links">
+          <li><a class="nav-link navHash" href="#heroPage">Domů</a></li>
+          <li><a class="nav-link navHash" href="#about">O Nás</a></li>
+          <li>
+            <a class="nav-link navHash" href="#openingHours">Otevírací Doba</a>
+          </li>
+          <li><a class="nav-link navHash" href="#services">Nabídka</a></li>
+          <li><a class="nav-link navHash" href="#contact">Kontakt</a></li>
+          <li><a class="nav-link navHash" href="#gallery">Galerie</a></li>
+          <li>
+            <a
+              class="nav-link"
+              target="_blank"
+              href="https://eshop.honzuvsklep.cz"
+              >E-SHOP</a
+            >
+          </li>
+          <li>
+            <button id="openWineListNav" class="navButton">Vinný Lístek</button>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <section id="heroPage" class="d-flex-col content-center">
+      <div class="heroPageContent">
+        <h1 class="animeClass animeFromBottom"></h1>
+        <div class="animeClass animeFromBottom heroPageLogo">
+          <img src="svg/HS.svg" alt="Logo Image" />
+        </div>
       </div>
-      <div class="hamburger">
-        <div class="line1"></div>
-        <div class="line2"></div>
-        <div class="line3"></div>
+    </section>
+    <section id="about">
+      <div class="aboutPageContent">
+        <div class="title aboutTitle">
+          <h2 class="animeClass animeScaleIn">O mém sklípku</h2>
+          <div class="titleUnderline animeClass animeScaleIn"></div>
+        </div>
+        <div class="aboutPageContentText">
+          <p class="animeClass animeScaleIn">
+            Jsme nově otevřený sklípek ale výroba vín je naší dlouholetou
+            rodinou tradicí. Pokud si chcete zpříjemnit čas strávený na Jižní
+            Moravě, můžete si u nás posedět u pohárku nebo rovnou celé láhve.
+            Mimo vín nabízíme i řízené degustace
+          </p>
+        </div>
+        <div>
+          <a class="navhash" href="#contact"
+            ><button class="navHash animeClass animeScaleIn">
+              Zavojete nám!
+            </button></a
+          >
+        </div>
       </div>
-      <ul class="nav-links">
-        <li><a class="nav-link navHash" href="#heroPage">Domů</a></li>
-        <li><a class="nav-link navHash" href="#about">O Nás</a></li>
-        <li>
-          <a class="nav-link navHash" href="#openingHours">Otevírací Doba</a>
-        </li>
-        <li><a class="nav-link navHash" href="#services">Nabídka</a></li>
-        <li><a class="nav-link navHash" href="#contact">Kontakt</a></li>
-        <li><a class="nav-link navHash" href="#gallery">Galerie</a></li>
-        <li><a class="nav-link" target="_blank" href="https://eshop.honzuvsklep.cz">E-SHOP</a></li>
-        <li>
-          <button id="openWineListNav" class="navButton">Vinný Lístek</button>
-        </li>
-      </ul>
-    </nav>
-  </header>
-  <section id="heroPage" class="d-flex-col content-center">
-    <div class="heroPageContent">
-      <h1 class="animeClass animeFromBottom"></h1>
-      <div class="animeClass animeFromBottom heroPageLogo">
-        <img src="svg/HS.svg" alt="Logo Image" />
+    </section>
+    <section id="openingHours">
+      <div class="openingHoursPageContent d-flex-row content-center">
+        <div class="hoursPageText animeClass animeFromLeft nooverflow">
+          <h3>Otevírací <br />hodiny</h3>
+        </div>
+        <div class="animeClass animeScaleIn">
+          <div class="separator animeClass animeScaleIn"></div>
+        </div>
+        <div class="openingTable d-flex-col animeClass animeFromRight">
+          <div class="tableItem d-flex-row">
+            <span class="day">Pondělí - Čtvrtek</span>
+            <span class="time">Po tel. domluvě</span>
+          </div>
+          <div class="tableItem d-flex-row">
+            <span class="day">Pátek</span>
+            <span class="time">14:00 - 19:00</span>
+          </div>
+          <div class="tableItem d-flex-row">
+            <span class="day">Sobota</span>
+            <span class="time">9:00 - 19:00</span>
+          </div>
+          <div class="tableItem d-flex-row">
+            <span class="day">Neděle</span>
+            <span class="time">9:00 - 13:00</span>
+          </div>
+        </div>
       </div>
-    </div>
-  </section>
-  <section id="about">
-    <div class="aboutPageContent">
-      <div class="title aboutTitle">
-        <h2 class="animeClass animeScaleIn">O mém sklípku</h2>
+    </section>
+    <section class="perks">
+      <div class="perksPageContent">
+        <div class="gridWrapper">
+          <div class="perk">
+            <span class="perkIcon animeClass animeFromTop">
+              <span class="material-symbols-outlined"> psychiatry </span>
+            </span>
+            <h3 class="perkName animeClass animeScaleIn">Lokální suroviny</h3>
+            <p class="perkInfo animeClass animeFromBottom">
+              Naše vína jsou vyráběna z hroznů přímo z našich vinic podpálaví.
+              Jako pohoštění nabízíme sýry a klobásy od lokálních dodavatelů.
+            </p>
+          </div>
+          <div class="perk">
+            <span class="perkIcon animeClass animeFromTop">
+              <span class="material-symbols-outlined"> package_2 </span>
+            </span>
+            <h3 class="perkName animeClass animeScaleIn">
+              Víno až k vašim dveřím
+            </h3>
+            <p class="perkInfo animeClass animeFromBottom">
+              Nabízíme vám možnost dodádní vína až k vašim dveřím. Objednejte si
+              víno na našem E-Shopu.
+            </p>
+            <button
+              onclick="window.open('https://eshop.honzuvsklep.cz', '_blank')"
+              style="margin-top: 20px"
+              class="primaryButton navHash animeClass animeFromBottom"
+            >
+              Objednat ONLINE
+            </button>
+          </div>
+          <div class="perk">
+            <span class="perkIcon animeClass animeFromTop">
+              <span class="material-symbols-outlined"> liquor </span>
+            </span>
+            <h3 class="perkName animeClass animeScaleIn">Řízené degustace</h3>
+            <p class="perkInfo animeClass animeFromBottom">
+              V rámci degustace ochutnáte 12 vzorků vín s hodinovým výkladem po
+              té na vás bude čekat občerstvení. Dozvíte se zajímavosti o výrobě
+              a historii vín.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="services">
+      <div class="title">
+        <h2 class="animeClass animeScaleIn">Nabízíme</h2>
         <div class="titleUnderline animeClass animeScaleIn"></div>
       </div>
-      <div class="aboutPageContentText">
-        <p class="animeClass animeScaleIn">
-          Jsme nově otevřený sklípek ale výroba vín je naší dlouholetou
-          rodinou tradicí. Pokud si chcete zpříjemnit čas strávený na Jižní
-          Moravě, můžete si u nás posedět u pohárku nebo rovnou celé láhve.
-          Mimo vín nabízíme i řízené degustace
-        </p>
-      </div>
-      <div>
-        <a class="navhash" href="#contact"><button class="navHash animeClass animeScaleIn">
-            Zavojete nám!
-          </button></a>
-      </div>
-    </div>
-  </section>
-  <section id="openingHours">
-    <div class="openingHoursPageContent d-flex-row content-center">
-      <div class="hoursPageText animeClass animeFromLeft nooverflow">
-        <h3>Otevírací <br />hodiny</h3>
-      </div>
-      <div class="animeClass animeScaleIn">
-        <div class="separator animeClass animeScaleIn"></div>
-      </div>
-      <div class="openingTable d-flex-col animeClass animeFromRight">
-        <div class="tableItem d-flex-row">
-          <span class="day">Pondělí - Čtvrtek</span>
-          <span class="time">Po tel. domluvě</span>
-        </div>
-        <div class="tableItem d-flex-row">
-          <span class="day">Pátek</span>
-          <span class="time">14:00 - 19:00</span>
-        </div>
-        <div class="tableItem d-flex-row">
-          <span class="day">Sobota</span>
-          <span class="time">9:00 - 19:00</span>
-        </div>
-        <div class="tableItem d-flex-row">
-          <span class="day">Neděle</span>
-          <span class="time">9:00 - 13:00</span>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section class="perks">
-    <div class="perksPageContent">
-      <div class="gridWrapper">
-        <div class="perk">
-          <span class="perkIcon animeClass animeFromTop">
-            <span class="material-symbols-outlined"> psychiatry </span>
-          </span>
-          <h3 class="perkName animeClass animeScaleIn">Lokální suroviny</h3>
-          <p class="perkInfo animeClass animeFromBottom">
-            Naše vína jsou vyráběna z hroznů přímo z našich vinic podpálaví.
-            Jako pohoštění nabízíme sýry a klobásy od lokálních dodavatelů.
-          </p>
-        </div>
-        <div class="perk">
-          <span class="perkIcon animeClass animeFromTop">
-            <span class="material-symbols-outlined"> package_2 </span>
-          </span>
-          <h3 class="perkName animeClass animeScaleIn">
-            Víno až k vašim dveřím
-          </h3>
-          <p class="perkInfo animeClass animeFromBottom">
-            Nabízíme vám možnost dodádní vína až k vašim dveřím. Objednejte si víno na našem E-Shopu.
-          </p>
-        </div>
-        <div class="perk">
-          <span class="perkIcon animeClass animeFromTop">
-            <span class="material-symbols-outlined"> liquor </span>
-          </span>
-          <h3 class="perkName animeClass animeScaleIn">Řízené degustace</h3>
-          <p class="perkInfo animeClass animeFromBottom">
-            V rámci degustace ochutnáte 12 vzorků vín s hodinovým výkladem po
-            té na vás bude čekat občerstvení. Dozvíte se zajímavosti o výrobě
-            a historii vín.
-          </p>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section id="services">
-    <div class="title">
-      <h2 class="animeClass animeScaleIn">Nabízíme</h2>
-      <div class="titleUnderline animeClass animeScaleIn"></div>
-    </div>
-    <div class="buttonWrapper">
-      <button id="openWineList" class="primaryButton navHash animeClass animeScaleIn">
-        Zobrazit vinný lístek
-      </button>
-      <a href="https://eshop.honzuvsklep.cz" target="_blank">
-        <button id="openWineList" class="primaryButton navHash animeClass animeScaleIn">
-          Objednat ONLINE
+      <div class="buttonWrapper">
+        <button
+          id="openWineList"
+          class="primaryButton navHash animeClass animeScaleIn"
+        >
+          Zobrazit vinný lístek
         </button>
-      </a>
-    </div>
-    <dialog>
-      <button id="closeWineList" class="closeButton">X</button>
-      <h3 class="text-center">Vinný Lístek</h3>
-      <div class="wineSection">
-        <div class="wineType">
-          <h4>Bílá vína</h4>
-          <div class="wineAmount">
-            <span class="wine-dl winePrice">1dl</span>
-            <span class="winePrice winePriceSeparator disabled">|</span>
-            <span class="wine-dl winePrice">2dl</span>
-            <span class="winePrice winePriceSeparator disabled">|</span>
-            <span class="winePrice">0.75l</span>
-          </div>
-        </div>
-        <div class="wineWrapper">
-          <div class="wine">
-            <div class="wineDetail">
-              <div class="wineName">Ryzlink Valašský-Sur Lie 2022</div>
-              <div class="wineDescription">Pozdní sběr, suché</div>
-              <div class="wineValues">
-                Zbytkový cukr 0.4g/l | Kyseliny 5.4g/l | Alkohol 12.5%
-              </div>
-            </div>
-            <div class="wineAmount">
-              <span class="wine-dl winePrice">30</span>
-              <span class="winePrice winePriceSeparator disabled">|</span>
-              <span class="wine-dl winePrice">60</span>
-              <span class="winePrice winePriceSeparator disabled">|</span>
-              <span class="winePrice">180<span class="winePriceSingle">,-</span></span>
-            </div>
-          </div>
-          <div class="wine">
-            <div class="wineDetail">
-              <div class="wineName">Sauvignon 2022</div>
-              <div class="wineDescription">Pozdní sběr, suché</div>
-              <div class="wineValues">
-                Zbytkový cukr 3.1g/l | Kyseliny 6.7g/l | Alkohol 12.5%
-              </div>
-            </div>
-            <div class="wineAmount">
-              <span class="wine-dl winePrice">30</span>
-              <span class="winePrice winePriceSeparator disabled">|</span>
-              <span class="wine-dl winePrice">60</span>
-              <span class="winePrice winePriceSeparator disabled">|</span>
-              <span class="winePrice">170<span class="winePriceSingle">,-</span></span>
-            </div>
-          </div>
-          <div class="wine">
-            <div class="wineDetail">
-              <div class="wineName">Rulandské Šedé 2022</div>
-              <div class="wineDescription">Pozdní sběr, suché</div>
-              <div class="wineValues">
-                Zbytkový cukr 4.0g/l | Kyseliny 5.3g/l | Alkohol 11.5%
-              </div>
-            </div>
-            <div class="wineAmount">
-              <span class="wine-dl winePrice">30</span>
-              <span class="winePrice winePriceSeparator disabled">|</span>
-              <span class="wine-dl winePrice">60</span>
-              <span class="winePrice winePriceSeparator disabled">|</span>
-              <span class="winePrice">150<span class="winePriceSingle">,-</span></span>
-            </div>
-          </div>
-          <div class="wine">
-            <div class="wineDetail">
-              <div class="wineName">Aurelius 2022</div>
-              <div class="wineDescription">Pozdní sběr, polosuché</div>
-              <div class="wineValues">
-                Zbytkový cukr 11.0g/l | Kyseliny 6.3g/l | Alkohol 12.%
-              </div>
-            </div>
-            <div class="wineAmount">
-              <span class="wine-dl winePrice">30</span>
-              <span class="winePrice winePriceSeparator disabled">|</span>
-              <span class="wine-dl winePrice">60</span>
-              <span class="winePrice winePriceSeparator disabled">|</span>
-              <span class="winePrice">170<span class="winePriceSingle">,-</span></span>
-            </div>
-          </div>
-          <div class="wine">
-            <div class="wineDetail">
-              <div class="wineName">Tramín 2022</div>
-              <div class="wineDescription">Pozdní sběr, polosuché</div>
-              <div class="wineValues">
-                Zbytkový cukr 12.0g/l | Kyseliny 6.1g/l | Alkohol 12.5%
-              </div>
-            </div>
-            <div class="wineAmount">
-              <span class="wine-dl winePrice">30</span>
-              <span class="winePrice winePriceSeparator disabled">|</span>
-              <span class="wine-dl winePrice">60</span>
-              <span class="winePrice winePriceSeparator disabled">|</span>
-              <span class="winePrice">170<span class="winePriceSingle">,-</span></span>
-            </div>
-          </div>
-          <div class="wine">
-            <div class="wineDetail">
-              <div class="wineName">Hibernal 2022</div>
-              <div class="wineDescription">Pozdní sběr, polosladké</div>
-              <div class="wineValues">
-                Zbytkový cukr 0.4g/l | Kyseliny 5.4g/l | Alkohol 12.5%
-              </div>
-            </div>
-            <div class="wineAmount">
-              <span class="wine-dl winePrice">30</span>
-              <span class="winePrice winePriceSeparator disabled">|</span>
-              <span class="wine-dl winePrice">60</span>
-              <span class="winePrice winePriceSeparator disabled">|</span>
-              <span class="winePrice">170<span class="winePriceSingle">,-</span></span>
-            </div>
-          </div>
-          <div class="wine">
-            <div class="wineDetail">
-              <div class="wineName">Pálava 2022</div>
-              <div class="wineDescription">Pozdní sběr, polosladké</div>
-              <div class="wineValues">
-                Zbytkový cukr 14.0g/l | Kyseliny 6.4g/l | Alkohol 11.0%
-              </div>
-            </div>
-            <div class="wineAmount">
-              <span class="wine-dl winePrice">30</span>
-              <span class="winePrice winePriceSeparator disabled">|</span>
-              <span class="wine-dl winePrice">60</span>
-              <span class="winePrice winePriceSeparator disabled">|</span>
-              <span class="winePrice">180<span class="winePriceSingle">,-</span></span>
-            </div>
-          </div>
-          <div class="wine">
-            <div class="wineDetail">
-              <div class="wineName">Frizante Laurot Rosé 2021</div>
-              <div class="wineDescription">Pozdní sběr, polosladké</div>
-              <div class="wineValues">
-                Zbytkový cukr 29.5g/l | Kyseliny 7.7g/l | Alkohol 12.0%
-              </div>
-            </div>
-            <div class="wineAmount">
-              <span class="wine-dl winePrice">30</span>
-              <span class="winePrice winePriceSeparator disabled">|</span>
-              <span class="wine-dl winePrice">60</span>
-              <span class="winePrice winePriceSeparator disabled">|</span>
-              <span class="winePrice">180<span class="winePriceSingle">,-</span></span>
-            </div>
-          </div>
-        </div>
-        <div class="wineType">
-          <h4>Růžová vína</h4>
-          <div class="wineAmount">
-            <span class="wine-dl winePrice">1dl</span>
-            <span class="winePrice winePriceSeparator disabled">|</span>
-            <span class="wine-dl winePrice">2dl</span>
-            <span class="winePrice winePriceSeparator disabled">|</span>
-            <span class="winePrice">0.75l</span>
-          </div>
-        </div>
-        <div class="wineWrapper">
-          <div class="wine">
-            <div class="wineDetail">
-              <div class="wineName">Zweigeltrebe Rosé 2022</div>
-              <div class="wineDescription">MVZ, polosuché</div>
-              <div class="wineValues">
-                Zbytkový cukr 7.0g/l | Kyseliny 5.5g/l | Alkohol 12.0%
-              </div>
-            </div>
-            <div class="wineAmount">
-              <span class="wine-dl winePrice">30</span>
-              <span class="winePrice winePriceSeparator disabled">|</span>
-              <span class="wine-dl winePrice">60</span>
-              <span class="winePrice winePriceSeparator disabled">|</span>
-              <span class="winePrice">140<span class="winePriceSingle">,-</span></span>
-            </div>
-          </div>
-          <div class="wine">
-            <div class="wineDetail">
-              <div class="wineName">Frankovka Rosé 2022</div>
-              <div class="wineDescription">MVZ, polosladké</div>
-              <div class="wineValues">
-                Zbytkový cukr 20.0g/l | Kyseliny 5.4g/l | Alkohol 11.5%
-              </div>
-            </div>
-            <div class="wineAmount">
-              <span class="wine-dl winePrice">30</span>
-              <span class="winePrice winePriceSeparator disabled">|</span>
-              <span class="wine-dl winePrice">60</span>
-              <span class="winePrice winePriceSeparator disabled">|</span>
-              <span class="winePrice">140<span class="winePriceSingle">,-</span></span>
-            </div>
-          </div>
-        </div>
-        <div class="wineType">
-          <h4>Červená vína</h4>
-          <div class="wineAmount">
-            <span class="wine-dl winePrice">1dl</span>
-            <span class="winePrice winePriceSeparator disabled">|</span>
-            <span class="wine-dl winePrice">2dl</span>
-            <span class="winePrice winePriceSeparator disabled">|</span>
-            <span class="winePrice">0.75l</span>
-          </div>
-        </div>
-        <div class="wineWrapper">
-          <div class="wine">
-            <div class="wineDetail">
-              <div class="wineName">Zweigeltrebe 2022</div>
-              <div class="wineDescription">MVZ, suché</div>
-              <div class="wineValues">
-                Zbytkový cukr 1.8g/l | Kyseliny 5.0g/l | Alkohol 11.5%
-              </div>
-            </div>
-            <div class="wineAmount">
-              <span class="wine-dl winePrice">30</span>
-              <span class="winePrice winePriceSeparator disabled">|</span>
-              <span class="wine-dl winePrice">60</span>
-              <span class="winePrice winePriceSeparator disabled">|</span>
-              <span class="winePrice">140<span class="winePriceSingle">,-</span></span>
-            </div>
-          </div>
-          <div class="wine">
-            <div class="wineDetail">
-              <div class="wineName">Merlot 2022</div>
-              <div class="wineDescription">MVZ, polosladké</div>
-              <div class="wineValues">
-                Zbytkový cukr 1.8g/l | Kyseliny 5.0g/l | Alkohol 11.5%
-              </div>
-            </div>
-            <div class="wineAmount">
-              <span class="wine-dl winePrice">30</span>
-              <span class="winePrice winePriceSeparator disabled">|</span>
-              <span class="wine-dl winePrice">60</span>
-              <span class="winePrice winePriceSeparator disabled">|</span>
-              <span class="winePrice">140<span class="winePriceSingle">,-</span></span>
-            </div>
-          </div>
-          <div class="wine">
-            <div class="wineDetail">
-              <div class="wineName">Portské - Cabernet Moravia 2017</div>
-              <div class="wineDescription">MVZ, polosladké</div>
-              <div class="wineValues">
-                Zbytkový cukr 104.0g/l | Kyseliny 4.6g/l | Alkohol 18.0%
-              </div>
-            </div>
-            <div class="wineAmount">
-              <span class="wine-dl winePrice">-</span>
-              <span class="winePrice winePriceSeparator disabled">|</span>
-              <span class="wine-dl winePrice">-</span>
-              <span class="winePrice winePriceSeparator disabled">|</span>
-              <span class="winePrice">140<span class="winePriceSingle">,-</span></span>
-            </div>
-          </div>
-        </div>
-        <div class="wineType">
-          <h4>Ostatní</h4>
-          <div class="wineAmount">
-            <span class="wine-dl winePrice">1dl</span>
-            <span class="winePrice winePriceSeparator disabled">|</span>
-            <span class="wine-dl winePrice">2dl</span>
-            <span class="winePrice winePriceSeparator disabled">|</span>
-            <span class="winePrice">0.75l</span>
-          </div>
-        </div>
-        <div class="wineWrapper">
-          <div class="wine">
-            <div class="wineDetail">
-              <div class="wineName">Mošt bílý 2022</div>
-              <div class="wineDescription">
-                odrůda Veltín, sladké, alkohol 0%
-              </div>
-            </div>
-            <div class="wineAmount">
-              <span class="wine-dl winePrice">20</span>
-              <span class="winePrice winePriceSeparator disabled">|</span>
-              <span class="wine-dl winePrice">40</span>
-              <span class="winePrice winePriceSeparator disabled">|</span>
-              <span class="winePrice">100<span class="winePriceSingle">,-</span></span>
-            </div>
-          </div>
-        </div>
+        <a href="https://eshop.honzuvsklep.cz" target="_blank">
+          <button
+            id="openWineList"
+            class="primaryButton navHash animeClass animeScaleIn"
+          >
+            Objednat ONLINE
+          </button>
+        </a>
       </div>
-    </dialog>
-    <div class="servicesPageContent">
-      <div class="gridWrapper">
-        <div class="servicesGridCol animeClass animeFromLeft nooverflow">
-          <div class="serviceName">
-            <span class="material-symbols-outlined"> local_dining </span>
-            <h3>Něco k jídlu</h3>
-            <div class="underline"></div>
+      <dialog>
+        <button id="closeWineList" class="closeButton">X</button>
+        <h3 class="text-center">Vinný Lístek</h3>
+        <div class="wineSection">
+          <div class="wineType">
+            <h4>Bílá vína</h4>
+            <div class="wineAmount">
+              <span class="wine-dl winePrice">1dl</span>
+              <span class="winePrice winePriceSeparator disabled">|</span>
+              <span class="wine-dl winePrice">2dl</span>
+              <span class="winePrice winePriceSeparator disabled">|</span>
+              <span class="winePrice">0.75l</span>
+            </div>
           </div>
-          <div class="servicesWrapper">
-            <div class="service">
-              <span class="serviceName">Sýrový talíř</span>
-              <span class="servicePrice">230,-</span>
+          <div class="wineWrapper">
+            <div class="wine">
+              <div class="wineDetail">
+                <div class="wineName">Ryzlink Valašský-Sur Lie 2022</div>
+                <div class="wineDescription">Pozdní sběr, suché</div>
+                <div class="wineValues">
+                  Zbytkový cukr 0.4g/l | Kyseliny 5.4g/l | Alkohol 12.5%
+                </div>
+              </div>
+              <div class="wineAmount">
+                <span class="wine-dl winePrice">30</span>
+                <span class="winePrice winePriceSeparator disabled">|</span>
+                <span class="wine-dl winePrice">60</span>
+                <span class="winePrice winePriceSeparator disabled">|</span>
+                <span class="winePrice"
+                  >180<span class="winePriceSingle">,-</span></span
+                >
+              </div>
             </div>
-            <div class="service">
-              <span class="serviceName">Masové prkénko</span>
-              <span class="servicePrice">215,-</span>
+            <div class="wine">
+              <div class="wineDetail">
+                <div class="wineName">Sauvignon 2022</div>
+                <div class="wineDescription">Pozdní sběr, suché</div>
+                <div class="wineValues">
+                  Zbytkový cukr 3.1g/l | Kyseliny 6.7g/l | Alkohol 12.5%
+                </div>
+              </div>
+              <div class="wineAmount">
+                <span class="wine-dl winePrice">30</span>
+                <span class="winePrice winePriceSeparator disabled">|</span>
+                <span class="wine-dl winePrice">60</span>
+                <span class="winePrice winePriceSeparator disabled">|</span>
+                <span class="winePrice"
+                  >170<span class="winePriceSingle">,-</span></span
+                >
+              </div>
             </div>
-            <div class="service">
-              <span class="serviceName">Brambůrky</span>
-              <span class="servicePrice">40,-</span>
+            <div class="wine">
+              <div class="wineDetail">
+                <div class="wineName">Rulandské Šedé 2022</div>
+                <div class="wineDescription">Pozdní sběr, suché</div>
+                <div class="wineValues">
+                  Zbytkový cukr 4.0g/l | Kyseliny 5.3g/l | Alkohol 11.5%
+                </div>
+              </div>
+              <div class="wineAmount">
+                <span class="wine-dl winePrice">30</span>
+                <span class="winePrice winePriceSeparator disabled">|</span>
+                <span class="wine-dl winePrice">60</span>
+                <span class="winePrice winePriceSeparator disabled">|</span>
+                <span class="winePrice"
+                  >150<span class="winePriceSingle">,-</span></span
+                >
+              </div>
+            </div>
+            <div class="wine">
+              <div class="wineDetail">
+                <div class="wineName">Aurelius 2022</div>
+                <div class="wineDescription">Pozdní sběr, polosuché</div>
+                <div class="wineValues">
+                  Zbytkový cukr 11.0g/l | Kyseliny 6.3g/l | Alkohol 12.%
+                </div>
+              </div>
+              <div class="wineAmount">
+                <span class="wine-dl winePrice">30</span>
+                <span class="winePrice winePriceSeparator disabled">|</span>
+                <span class="wine-dl winePrice">60</span>
+                <span class="winePrice winePriceSeparator disabled">|</span>
+                <span class="winePrice"
+                  >170<span class="winePriceSingle">,-</span></span
+                >
+              </div>
+            </div>
+            <div class="wine">
+              <div class="wineDetail">
+                <div class="wineName">Tramín 2022</div>
+                <div class="wineDescription">Pozdní sběr, polosuché</div>
+                <div class="wineValues">
+                  Zbytkový cukr 12.0g/l | Kyseliny 6.1g/l | Alkohol 12.5%
+                </div>
+              </div>
+              <div class="wineAmount">
+                <span class="wine-dl winePrice">30</span>
+                <span class="winePrice winePriceSeparator disabled">|</span>
+                <span class="wine-dl winePrice">60</span>
+                <span class="winePrice winePriceSeparator disabled">|</span>
+                <span class="winePrice"
+                  >170<span class="winePriceSingle">,-</span></span
+                >
+              </div>
+            </div>
+            <div class="wine">
+              <div class="wineDetail">
+                <div class="wineName">Hibernal 2022</div>
+                <div class="wineDescription">Pozdní sběr, polosladké</div>
+                <div class="wineValues">
+                  Zbytkový cukr 0.4g/l | Kyseliny 5.4g/l | Alkohol 12.5%
+                </div>
+              </div>
+              <div class="wineAmount">
+                <span class="wine-dl winePrice">30</span>
+                <span class="winePrice winePriceSeparator disabled">|</span>
+                <span class="wine-dl winePrice">60</span>
+                <span class="winePrice winePriceSeparator disabled">|</span>
+                <span class="winePrice"
+                  >170<span class="winePriceSingle">,-</span></span
+                >
+              </div>
+            </div>
+            <div class="wine">
+              <div class="wineDetail">
+                <div class="wineName">Pálava 2022</div>
+                <div class="wineDescription">Pozdní sběr, polosladké</div>
+                <div class="wineValues">
+                  Zbytkový cukr 14.0g/l | Kyseliny 6.4g/l | Alkohol 11.0%
+                </div>
+              </div>
+              <div class="wineAmount">
+                <span class="wine-dl winePrice">30</span>
+                <span class="winePrice winePriceSeparator disabled">|</span>
+                <span class="wine-dl winePrice">60</span>
+                <span class="winePrice winePriceSeparator disabled">|</span>
+                <span class="winePrice"
+                  >180<span class="winePriceSingle">,-</span></span
+                >
+              </div>
+            </div>
+            <div class="wine">
+              <div class="wineDetail">
+                <div class="wineName">Frizante Laurot Rosé 2021</div>
+                <div class="wineDescription">Pozdní sběr, polosladké</div>
+                <div class="wineValues">
+                  Zbytkový cukr 29.5g/l | Kyseliny 7.7g/l | Alkohol 12.0%
+                </div>
+              </div>
+              <div class="wineAmount">
+                <span class="wine-dl winePrice">30</span>
+                <span class="winePrice winePriceSeparator disabled">|</span>
+                <span class="wine-dl winePrice">60</span>
+                <span class="winePrice winePriceSeparator disabled">|</span>
+                <span class="winePrice"
+                  >180<span class="winePriceSingle">,-</span></span
+                >
+              </div>
+            </div>
+          </div>
+          <div class="wineType">
+            <h4>Růžová vína</h4>
+            <div class="wineAmount">
+              <span class="wine-dl winePrice">1dl</span>
+              <span class="winePrice winePriceSeparator disabled">|</span>
+              <span class="wine-dl winePrice">2dl</span>
+              <span class="winePrice winePriceSeparator disabled">|</span>
+              <span class="winePrice">0.75l</span>
+            </div>
+          </div>
+          <div class="wineWrapper">
+            <div class="wine">
+              <div class="wineDetail">
+                <div class="wineName">Zweigeltrebe Rosé 2022</div>
+                <div class="wineDescription">MVZ, polosuché</div>
+                <div class="wineValues">
+                  Zbytkový cukr 7.0g/l | Kyseliny 5.5g/l | Alkohol 12.0%
+                </div>
+              </div>
+              <div class="wineAmount">
+                <span class="wine-dl winePrice">30</span>
+                <span class="winePrice winePriceSeparator disabled">|</span>
+                <span class="wine-dl winePrice">60</span>
+                <span class="winePrice winePriceSeparator disabled">|</span>
+                <span class="winePrice"
+                  >140<span class="winePriceSingle">,-</span></span
+                >
+              </div>
+            </div>
+            <div class="wine">
+              <div class="wineDetail">
+                <div class="wineName">Frankovka Rosé 2022</div>
+                <div class="wineDescription">MVZ, polosladké</div>
+                <div class="wineValues">
+                  Zbytkový cukr 20.0g/l | Kyseliny 5.4g/l | Alkohol 11.5%
+                </div>
+              </div>
+              <div class="wineAmount">
+                <span class="wine-dl winePrice">30</span>
+                <span class="winePrice winePriceSeparator disabled">|</span>
+                <span class="wine-dl winePrice">60</span>
+                <span class="winePrice winePriceSeparator disabled">|</span>
+                <span class="winePrice"
+                  >140<span class="winePriceSingle">,-</span></span
+                >
+              </div>
+            </div>
+          </div>
+          <div class="wineType">
+            <h4>Červená vína</h4>
+            <div class="wineAmount">
+              <span class="wine-dl winePrice">1dl</span>
+              <span class="winePrice winePriceSeparator disabled">|</span>
+              <span class="wine-dl winePrice">2dl</span>
+              <span class="winePrice winePriceSeparator disabled">|</span>
+              <span class="winePrice">0.75l</span>
+            </div>
+          </div>
+          <div class="wineWrapper">
+            <div class="wine">
+              <div class="wineDetail">
+                <div class="wineName">Zweigeltrebe 2022</div>
+                <div class="wineDescription">MVZ, suché</div>
+                <div class="wineValues">
+                  Zbytkový cukr 1.8g/l | Kyseliny 5.0g/l | Alkohol 11.5%
+                </div>
+              </div>
+              <div class="wineAmount">
+                <span class="wine-dl winePrice">30</span>
+                <span class="winePrice winePriceSeparator disabled">|</span>
+                <span class="wine-dl winePrice">60</span>
+                <span class="winePrice winePriceSeparator disabled">|</span>
+                <span class="winePrice"
+                  >140<span class="winePriceSingle">,-</span></span
+                >
+              </div>
+            </div>
+            <div class="wine">
+              <div class="wineDetail">
+                <div class="wineName">Merlot 2022</div>
+                <div class="wineDescription">MVZ, polosladké</div>
+                <div class="wineValues">
+                  Zbytkový cukr 1.8g/l | Kyseliny 5.0g/l | Alkohol 11.5%
+                </div>
+              </div>
+              <div class="wineAmount">
+                <span class="wine-dl winePrice">30</span>
+                <span class="winePrice winePriceSeparator disabled">|</span>
+                <span class="wine-dl winePrice">60</span>
+                <span class="winePrice winePriceSeparator disabled">|</span>
+                <span class="winePrice"
+                  >140<span class="winePriceSingle">,-</span></span
+                >
+              </div>
+            </div>
+            <div class="wine">
+              <div class="wineDetail">
+                <div class="wineName">Portské - Cabernet Moravia 2017</div>
+                <div class="wineDescription">MVZ, polosladké</div>
+                <div class="wineValues">
+                  Zbytkový cukr 104.0g/l | Kyseliny 4.6g/l | Alkohol 18.0%
+                </div>
+              </div>
+              <div class="wineAmount">
+                <span class="wine-dl winePrice">-</span>
+                <span class="winePrice winePriceSeparator disabled">|</span>
+                <span class="wine-dl winePrice">-</span>
+                <span class="winePrice winePriceSeparator disabled">|</span>
+                <span class="winePrice"
+                  >140<span class="winePriceSingle">,-</span></span
+                >
+              </div>
+            </div>
+          </div>
+          <div class="wineType">
+            <h4>Ostatní</h4>
+            <div class="wineAmount">
+              <span class="wine-dl winePrice">1dl</span>
+              <span class="winePrice winePriceSeparator disabled">|</span>
+              <span class="wine-dl winePrice">2dl</span>
+              <span class="winePrice winePriceSeparator disabled">|</span>
+              <span class="winePrice">0.75l</span>
+            </div>
+          </div>
+          <div class="wineWrapper">
+            <div class="wine">
+              <div class="wineDetail">
+                <div class="wineName">Mošt bílý 2022</div>
+                <div class="wineDescription">
+                  odrůda Veltín, sladké, alkohol 0%
+                </div>
+              </div>
+              <div class="wineAmount">
+                <span class="wine-dl winePrice">20</span>
+                <span class="winePrice winePriceSeparator disabled">|</span>
+                <span class="wine-dl winePrice">40</span>
+                <span class="winePrice winePriceSeparator disabled">|</span>
+                <span class="winePrice"
+                  >100<span class="winePriceSingle">,-</span></span
+                >
+              </div>
             </div>
           </div>
         </div>
-        <div class="servicesGridCol animeClass animeScaleIn">
-          <div class="serviceName">
-            <span class="material-symbols-outlined"> coffee </span>
-            <h3>Káva</h3>
-            <div class="underline"></div>
+      </dialog>
+      <div class="servicesPageContent">
+        <div class="gridWrapper">
+          <div class="servicesGridCol animeClass animeFromLeft nooverflow">
+            <div class="serviceName">
+              <span class="material-symbols-outlined"> local_dining </span>
+              <h3>Něco k jídlu</h3>
+              <div class="underline"></div>
+            </div>
+            <div class="servicesWrapper">
+              <div class="service">
+                <span class="serviceName">Sýrový talíř</span>
+                <span class="servicePrice">230,-</span>
+              </div>
+              <div class="service">
+                <span class="serviceName">Masové prkénko</span>
+                <span class="servicePrice">215,-</span>
+              </div>
+              <div class="service">
+                <span class="serviceName">Brambůrky</span>
+                <span class="servicePrice">40,-</span>
+              </div>
+            </div>
           </div>
-          <div class="servicesWrapper">
-            <div class="service">
-              <span class="serviceName">Espresso</span>
-              <span class="servicePrice">40,-</span>
+          <div class="servicesGridCol animeClass animeScaleIn">
+            <div class="serviceName">
+              <span class="material-symbols-outlined"> coffee </span>
+              <h3>Káva</h3>
+              <div class="underline"></div>
             </div>
-            <div class="service">
-              <span class="serviceName">Lungo</span>
-              <span class="servicePrice">60,-</span>
-            </div>
-            <div class="service">
-              <span class="serviceName">Cappuccino</span>
-              <span class="servicePrice">60,-</span>
-            </div>
-            <div class="service">
-              <span class="serviceName">Čaj (ovocný,černý)</span>
-              <span class="servicePrice">30,-</span>
+            <div class="servicesWrapper">
+              <div class="service">
+                <span class="serviceName">Espresso</span>
+                <span class="servicePrice">40,-</span>
+              </div>
+              <div class="service">
+                <span class="serviceName">Lungo</span>
+                <span class="servicePrice">60,-</span>
+              </div>
+              <div class="service">
+                <span class="serviceName">Cappuccino</span>
+                <span class="servicePrice">60,-</span>
+              </div>
+              <div class="service">
+                <span class="serviceName">Čaj (ovocný,černý)</span>
+                <span class="servicePrice">30,-</span>
+              </div>
             </div>
           </div>
-        </div>
-        <!-- <div class="servicesGridCol animeClass animeFromRight">
+          <!-- <div class="servicesGridCol animeClass animeFromRight">
             <div class="serviceName">
               <span class="material-symbols-outlined"> liquor </span>
               <h3>Burčák červený, bílý</h3>
@@ -517,124 +586,173 @@
               </div>
             </div>
           </div> -->
+        </div>
       </div>
-    </div>
-  </section>
-  <section id="contact">
-    <div class="title">
-      <h2 class="animeClass animeScaleIn">Kde nás najdete?</h2>
-      <div class="animeClass animeScaleIn">
-        <div class="titleUnderline animeClass animeScaleIn"></div>
+    </section>
+    <section id="contact">
+      <div class="title">
+        <h2 class="animeClass animeScaleIn">Kde nás najdete?</h2>
+        <div class="animeClass animeScaleIn">
+          <div class="titleUnderline animeClass animeScaleIn"></div>
+        </div>
       </div>
-    </div>
-    <div class="contactLocation d-flex-col content-center animeClass animeScaleIn">
-      <img class="icon" src="svg/icons/geo-alt.svg" alt="Location" />
-      <h4>Kletnice 195, 692 01</h4>
-      <div class="contentLocationMaps d-flex-row content-center">
-        <a href="https://maps.app.goo.gl/fEQP8B6ZSnxfKX7U6" target="_blank" class="d-flex-row content-center">Zobrazit
-          na mapě<img src="svg/icons/arrow-right.svg" alt="Poloha" /></a>
+      <div
+        class="contactLocation d-flex-col content-center animeClass animeScaleIn"
+      >
+        <img class="icon" src="svg/icons/geo-alt.svg" alt="Location" />
+        <h4>Kletnice 195, 692 01</h4>
+        <div class="contentLocationMaps d-flex-row content-center">
+          <a
+            href="https://maps.app.goo.gl/fEQP8B6ZSnxfKX7U6"
+            target="_blank"
+            class="d-flex-row content-center"
+            >Zobrazit na mapě<img src="svg/icons/arrow-right.svg" alt="Poloha"
+          /></a>
+        </div>
       </div>
-    </div>
-    <div class="contactSectionContent d-flex-row content-center">
-      <div class="gridWrapper">
-        <div class="contactPerson d-flex-col content-center animeClass animeScaleIn">
-          <div class="contactPersonDetails">
-            <h3>Honza Matoušek</h3>
-            <div class="d-flex-row content-center">
-              <span>Majitel</span>
+      <div class="contactSectionContent d-flex-row content-center">
+        <div class="gridWrapper">
+          <div
+            class="contactPerson d-flex-col content-center animeClass animeScaleIn"
+          >
+            <div class="contactPersonDetails">
+              <h3>Honza Matoušek</h3>
+              <div class="d-flex-row content-center">
+                <span>Majitel</span>
+              </div>
+              <div class="contactPersonContacts d-flex-row content-center">
+                <img
+                  class="icon"
+                  src="/svg/icons/telephone.svg"
+                  aria-hidden="true"
+                />
+                <span class="contactPerconContactsPhone">+420 721 610 200</span>
+              </div>
             </div>
-            <div class="contactPersonContacts d-flex-row content-center">
-              <img class="icon" src="/svg/icons/telephone.svg" aria-hidden="true" />
-              <span class="contactPerconContactsPhone">+420 721 610 200</span>
+          </div>
+          <div
+            class="contactPerson d-flex-col content-center animeClass animeScaleIn"
+          >
+            <div class="contactPersonDetails">
+              <h3>Kristýna Větrovcová</h3>
+              <div class="d-flex-row content-center">
+                <span>Majitelka</span>
+              </div>
+              <div class="contactPersonContacts d-flex-row content-center">
+                <img class="icon" src="/svg/icons/telephone.svg" />
+                <span class="contactPerconContactsPhone">+420 604 104 601</span>
+              </div>
             </div>
           </div>
         </div>
-        <div class="contactPerson d-flex-col content-center animeClass animeScaleIn">
-          <div class="contactPersonDetails">
-            <h3>Kristýna Větrovcová</h3>
-            <div class="d-flex-row content-center">
-              <span>Majitelka</span>
-            </div>
-            <div class="contactPersonContacts d-flex-row content-center">
-              <img class="icon" src="/svg/icons/telephone.svg" />
-              <span class="contactPerconContactsPhone">+420 604 104 601</span>
-            </div>
-          </div>
+      </div>
+    </section>
+    <section id="gallery" class="d-flex-col content-center">
+      <div class="title">
+        <h2 class="animeClass animeScaleIn">Galerie</h2>
+        <div class="animeClass animeScaleIn">
+          <div class="titleUnderline animeClass animeScaleIn"></div>
         </div>
       </div>
-    </div>
-  </section>
-  <section id="gallery" class="d-flex-col content-center">
-    <div class="title">
-      <h2 class="animeClass animeScaleIn">Galerie</h2>
-      <div class="animeClass animeScaleIn">
-        <div class="titleUnderline animeClass animeScaleIn"></div>
+      <div class="gallery">
+        <div class="galleryImg">
+          <img
+            class="galleryImg"
+            src="img/Gallery/gallery_1.jpg"
+            alt="obrazek galerie"
+          />
+        </div>
+        <div class="galleryImg">
+          <img
+            class="galleryImg"
+            src="img/Gallery/gallery_2.jpg"
+            alt="obrazek galerie"
+          />
+        </div>
+        <div class="galleryImg">
+          <img
+            class="galleryImg"
+            src="img/Gallery/gallery_3.jpg"
+            alt="obrazek galerie"
+          />
+        </div>
+        <div class="galleryImg">
+          <img
+            class="galleryImg"
+            src="img/Gallery/gallery_4.jpg"
+            alt="obrazek galerie"
+          />
+        </div>
+        <div class="galleryImg">
+          <img
+            class="galleryImg"
+            src="img/Gallery/gallery_5.jpg"
+            alt="obrazek galerie"
+          />
+        </div>
+        <div class="galleryImg">
+          <img
+            class="galleryImg"
+            src="img/Gallery/gallery_6.jpg"
+            alt="obrazek galerie"
+          />
+        </div>
+        <div class="galleryImg">
+          <img
+            class="galleryImg"
+            src="img/Gallery/gallery_7.jpg"
+            alt="obrazek galerie"
+          />
+        </div>
+        <div class="galleryImg">
+          <img
+            class="galleryImg"
+            src="img/Gallery/gallery_8.jpg"
+            alt="obrazek galerie"
+          />
+        </div>
       </div>
-    </div>
-    <div class="gallery">
-      <div class="galleryImg">
-        <img class="galleryImg" src="img/Gallery/gallery_1.jpg" alt="obrazek galerie" />
-      </div>
-      <div class="galleryImg">
-        <img class="galleryImg" src="img/Gallery/gallery_2.jpg" alt="obrazek galerie" />
-      </div>
-      <div class="galleryImg">
-        <img class="galleryImg" src="img/Gallery/gallery_3.jpg" alt="obrazek galerie" />
-      </div>
-      <div class="galleryImg">
-        <img class="galleryImg" src="img/Gallery/gallery_4.jpg" alt="obrazek galerie" />
-      </div>
-      <div class="galleryImg">
-        <img class="galleryImg" src="img/Gallery/gallery_5.jpg" alt="obrazek galerie" />
-      </div>
-      <div class="galleryImg">
-        <img class="galleryImg" src="img/Gallery/gallery_6.jpg" alt="obrazek galerie" />
-      </div>
-      <div class="galleryImg">
-        <img class="galleryImg" src="img/Gallery/gallery_7.jpg" alt="obrazek galerie" />
-      </div>
-      <div class="galleryImg">
-        <img class="galleryImg" src="img/Gallery/gallery_8.jpg" alt="obrazek galerie" />
-      </div>
-    </div>
-  </section>
-  <footer class="d-flex-row content-center">
-    <span>Copyright Honzuv Sklep © <span id="currentYear">2023</span>. Vytvořil
-      <a href="https://jiripatejdl.cz" target="_blank" class="">Jiří Patejdl</a></span>
-  </footer>
-  <script type="text/javascript" src="js/main.js"></script>
-  <script type="text/javascript" src="js/navigation.js"></script>
+    </section>
+    <footer class="d-flex-row content-center">
+      <span
+        >Copyright Honzuv Sklep © <span id="currentYear">2023</span>. Vytvořil
+        <a href="https://jiripatejdl.cz" target="_blank" class=""
+          >Jiří Patejdl</a
+        ></span
+      >
+    </footer>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/navigation.js"></script>
 
-  <script type="text/javascript" src="js/animace.js"></script>
-  <script>
-    // JavaScript to update the year dynamically
-    const currentYear = new Date().getFullYear();
-    document.getElementById("currentYear").textContent = currentYear;
-  </script>
-  <!--Remove Hast from the link-->
-  <script>
-    // when the DOM is ready
-    $(document).ready(function () {
-      // get the anchor link buttons
-      const menuBtn = $(".navHash");
-      // when each button is clicked
-      menuBtn.click(() => {
-        setTimeout(() => {
-          removeHash();
-        }, 1);
+    <script type="text/javascript" src="js/animace.js"></script>
+    <script>
+      // JavaScript to update the year dynamically
+      const currentYear = new Date().getFullYear();
+      document.getElementById("currentYear").textContent = currentYear;
+    </script>
+    <!--Remove Hast from the link-->
+    <script>
+      // when the DOM is ready
+      $(document).ready(function () {
+        // get the anchor link buttons
+        const menuBtn = $(".navHash");
+        // when each button is clicked
+        menuBtn.click(() => {
+          setTimeout(() => {
+            removeHash();
+          }, 1);
+        });
+
+        function removeHash() {
+          history.replaceState(
+            "",
+            document.title,
+            window.location.origin +
+              window.location.pathname +
+              window.location.search
+          );
+        }
       });
-
-      function removeHash() {
-        history.replaceState(
-          "",
-          document.title,
-          window.location.origin +
-          window.location.pathname +
-          window.location.search
-        );
-      }
-    });
-  </script>
-</body>
-
+    </script>
+  </body>
 </html>
