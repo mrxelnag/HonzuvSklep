@@ -8,7 +8,8 @@
 :root {
   --primary-clr: #b0742e;
   --primary-clr-o30: rgba(176, 115, 46, 0.3);
-  --primary-clr-forSVG: invert(45%) sepia(69%) saturate(459%) hue-rotate(352deg) brightness(93%) contrast(89%);
+  --primary-clr-forSVG: invert(45%) sepia(69%) saturate(459%) hue-rotate(352deg)
+    brightness(93%) contrast(89%);
   font-size: 12px;
 }
 
@@ -30,7 +31,6 @@
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-auto-rows: 180px;
   grid-gap: 20px;
-
 }
 
 .galleryImg {
@@ -109,6 +109,11 @@ p {
 .primaryButton:hover {
   background-color: var(--primary-clr);
   color: white;
+}
+
+a,
+button {
+  cursor: pointer;
 }
 
 .buttonWrapper {
@@ -217,7 +222,8 @@ dialog::backdrop {
   font-style: italic;
 }
 
-.wineValues {}
+.wineValues {
+}
 
 .wineName {
   font-size: 1.4rem;
@@ -281,7 +287,8 @@ dialog::backdrop {
     display: inline-block;
   }
 
-  .wine {}
+  .wine {
+  }
 
   .wineAmount {
     flex-direction: column;
@@ -506,7 +513,8 @@ nav .logo img {
 }
 
 .heroPageLogo {
-  filter: invert(97%) sepia(3%) saturate(11%) hue-rotate(37deg) brightness(102%) contrast(105%) !important;
+  filter: invert(97%) sepia(3%) saturate(11%) hue-rotate(37deg) brightness(102%)
+    contrast(105%) !important;
   color: white;
   width: 400px;
 }
@@ -553,7 +561,8 @@ nav .logo img {
 }
 
 /*=====OPENING HOURS====*/
-.openingHoursPageContent {}
+.openingHoursPageContent {
+}
 
 .hoursPageText {
   text-align: end;
@@ -638,7 +647,8 @@ nav .logo img {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: start;
+  text-align: left;
 }
 
 .servicesGridCol .underline {
@@ -669,7 +679,8 @@ nav .logo img {
 }
 
 /*Contact*/
-.contactSectionContent {}
+.contactSectionContent {
+}
 
 .contactPageText {
   width: min(700px, 70vw);
@@ -719,11 +730,11 @@ nav .logo img {
   gap: 0.5em;
 }
 
-.contactPersonContacs {}
+.contactPersonContacs {
+}
 
 /*====Stying for small screens====*/
 @media screen and (max-width: 800px) {
-
   /*Styling Navigation*/
   nav {
     position: fixed;
@@ -800,7 +811,6 @@ nav .logo img {
 
 /*Styling Opening Section*/
 @media screen and (max-width: 750px) {
-
   html,
   body {
     max-width: 100vw;
