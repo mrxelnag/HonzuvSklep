@@ -1,0 +1,94 @@
+{
+  "sections": [
+    {
+      "title": "Bílá vína",
+      "labels": { "dl1": "1dl", "dl2": "2dl", "bottle": "0.75l" },
+      "items": [
+        {
+          "name": "Ryzlink Vlašský 2023",
+          "description": "Pozdní sběr, suché",
+          "values": "Zbytkový cukr 1.0g/l | Kyseliny 7.3g/l | Alkohol 12.0%",
+          "prices": { "dl1": 40, "dl2": 80, "bottle": 190 }
+        },
+        {
+          "name": "Ryzlink Vlašský 2024",
+          "description": "Pozdní sběr, suché",
+          "values": "Zbytkový cukr 1.2g/l | Kyseliny 7.4g/l | Alkohol 12.0%",
+          "prices": { "dl1": 40, "dl2": 80, "bottle": 190 }
+        },
+        {
+          "name": "Rulandské Šedé 2024",
+          "description": "MZV, polosuché",
+          "values": "Zbytkový cukr 9.6g/l | Kyseliny 6.8g/l | Alkohol 12.0%",
+          "prices": { "dl1": 40, "dl2": 80, "bottle": 170 }
+        },
+        {
+          "name": "Chardonnay 2023",
+          "description": "Pozdní sběr, polosuché",
+          "values": "Zbytkový cukr 10.0g/l | Kyseliny 6.9g/l | Alkohol 12.5%",
+          "prices": { "dl1": 40, "dl2": 80, "bottle": 180 }
+        },
+        {
+          "name": "Tramín Červený 2024",
+          "description": "MZV, polosuché",
+          "values": "Zbytkový cukr 11.4g/l | Kyseliny 7.0g/l | Alkohol 12.0%",
+          "prices": { "dl1": 40, "dl2": 80, "bottle": 170 }
+        },
+        {
+          "name": "Hibernal 2024",
+          "description": "Pozdní sběr, polosladké",
+          "values": "Zbytkový cukr 20.0g/l | Kyseliny 6.6g/l | Alkohol 12.0%",
+          "prices": { "dl1": 40, "dl2": 80, "bottle": 180 }
+        },
+        {
+          "name": "Hibernal 2023",
+          "description": "Výběr z hroznů, polosladké",
+          "values": "Zbytkový cukr 25.0g/l | Kyseliny 7.0g/l | Alkohol 12.0%",
+          "prices": { "dl1": 40, "dl2": 80, "bottle": 180 }
+        },
+        {
+          "name": "Pálava 2024",
+          "description": "Pozdní sběr, polosladké",
+          "values": "Zbytkový cukr 27.0g/l | Kyseliny 6.2g/l | Alkohol 11.0%",
+          "prices": { "dl1": 40, "dl2": 80, "bottle": 190 }
+        },
+        {
+          "name": "Rulandské Bílé 2023",
+          "description": "Výběr z hroznů, polosladké",
+          "values": "Zbytkový cukr 42.0g/l | Kyseliny 5.5g/l | Alkohol 11.0%",
+          "prices": { "dl1": 40, "dl2": 80, "bottle": 190 }
+        }
+      ]
+    },
+    {
+      "title": "Červená vína",
+      "labels": { "dl1": "1dl", "dl2": "2dl", "bottle": "0.75l" },
+      "items": [
+        {
+          "name": "André 2023",
+          "description": "Fortifikované, sladké",
+          "values": "Zbytkový cukr 87g/l | Kyseliny 4.6g/l | Alkohol 19.0%",
+          "prices": { "dl1": 30, "dl2": 60, "bottle": 140 }
+        }
+      ]
+    },
+    {
+      "title": "Ostatní",
+      "labels": { "dl1": "1dl", "dl2": "2dl", "bottle": "0.75l" },
+      "items": [
+        {
+          "name": "Mošt bílý 2023",
+          "description": "odrůda Veltín, sladké, alkohol 0%",
+          "values": "",
+          "prices": { "dl1": 20, "dl2": 40, "bottle": 100 }
+        },
+        {
+          "name": "Karafa Vody",
+          "description": "",
+          "values": "",
+          "prices": { "dl1": "-", "dl2": "-", "bottle": 40 }
+        }
+      ]
+    }
+  ]
+}
