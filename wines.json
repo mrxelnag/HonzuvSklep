@@ -2,89 +2,119 @@
   "sections": [
     {
       "title": "Bílá vína",
-      "labels": { "dl1": "1dl", "dl2": "2dl", "bottle": "0.75l" },
+      "labels": { "dl1": "1 dl", "dl2": "2 dl", "bottle": "0,75 l" },
       "items": [
         {
           "name": "Ryzlink Vlašský 2023",
           "description": "Pozdní sběr, suché",
-          "values": "Zbytkový cukr 1.0g/l | Kyseliny 7.3g/l | Alkohol 12.0%",
-          "prices": { "dl1": 40, "dl2": 80, "bottle": 190 }
+          "values": "Zbytkový cukr 1,0 g/l | Kyseliny 7,3 g/l | Alkohol 12,0 %",
+          "prices": { "dl1": 40, "dl2": 80, "bottle": 180 }
         },
         {
           "name": "Ryzlink Vlašský 2024",
           "description": "Pozdní sběr, suché",
-          "values": "Zbytkový cukr 1.2g/l | Kyseliny 7.4g/l | Alkohol 12.0%",
-          "prices": { "dl1": 40, "dl2": 80, "bottle": 190 }
-        },
-        {
-          "name": "Rulandské Šedé 2024",
-          "description": "MZV, polosuché",
-          "values": "Zbytkový cukr 9.6g/l | Kyseliny 6.8g/l | Alkohol 12.0%",
-          "prices": { "dl1": 40, "dl2": 80, "bottle": 170 }
-        },
-        {
-          "name": "Chardonnay 2023",
-          "description": "Pozdní sběr, polosuché",
-          "values": "Zbytkový cukr 10.0g/l | Kyseliny 6.9g/l | Alkohol 12.5%",
+          "values": "Zbytkový cukr 1,2 g/l | Kyseliny 7,4 g/l | Alkohol 12,0 %",
           "prices": { "dl1": 40, "dl2": 80, "bottle": 180 }
         },
         {
+          "name": "Sauvignon 2025",
+          "description": "Moravské zemské víno, suché",
+          "values": "Zbytkový cukr 4,0 g/l | Kyseliny 5,2 g/l | Alkohol 11,0 %",
+          "prices": { "dl1": 40, "dl2": 80, "bottle": 180 }
+        },
+        {
+          "name": "Hibernal 2025",
+          "description": "Výběr z hroznů, suché",
+          "values": "Zbytkový cukr 6 g/l | Kyseliny 5,2 g/l | Alkohol 13 %",
+          "prices": { "dl1": 40, "dl2": 80, "bottle": 180 }
+        },
+        {
+          "name": "Sylvánské Zelené 2025",
+          "description": "Moravské zemské víno, polosuché",
+          "values": "Zbytkový cukr 9 g/l | Kyseliny 5,1 g/l | Alkohol 11,0 %",
+          "prices": { "dl1": 40, "dl2": 80, "bottle": 170 }
+        },
+        {
+          "name": "Rulandské Šedé 2024",
+          "description": "Moravské zemské víno, polosuché",
+          "values": "Zbytkový cukr 9,6 g/l | Kyseliny 6,8 g/l | Alkohol 12,0 %",
+          "prices": { "dl1": 40, "dl2": 80, "bottle": 170 }
+        },
+        {
           "name": "Tramín Červený 2024",
-          "description": "MZV, polosuché",
-          "values": "Zbytkový cukr 11.4g/l | Kyseliny 7.0g/l | Alkohol 12.0%",
+          "description": "Moravské zemské víno, polosuché",
+          "values": "Zbytkový cukr 11,4 g/l | Kyseliny 7,0 g/l | Alkohol 12,0 %",
           "prices": { "dl1": 40, "dl2": 80, "bottle": 170 }
         },
         {
           "name": "Hibernal 2024",
           "description": "Pozdní sběr, polosladké",
-          "values": "Zbytkový cukr 20.0g/l | Kyseliny 6.6g/l | Alkohol 12.0%",
-          "prices": { "dl1": 40, "dl2": 80, "bottle": 180 }
-        },
-        {
-          "name": "Hibernal 2023",
-          "description": "Výběr z hroznů, polosladké",
-          "values": "Zbytkový cukr 25.0g/l | Kyseliny 7.0g/l | Alkohol 12.0%",
+          "values": "Zbytkový cukr 23,0 g/l | Kyseliny 6,8 g/l | Alkohol 12,5 %",
           "prices": { "dl1": 40, "dl2": 80, "bottle": 180 }
         },
         {
           "name": "Pálava 2024",
           "description": "Pozdní sběr, polosladké",
-          "values": "Zbytkový cukr 27.0g/l | Kyseliny 6.2g/l | Alkohol 11.0%",
+          "values": "Zbytkový cukr 27,0 g/l | Kyseliny 6,2 g/l | Alkohol 11,5 %",
           "prices": { "dl1": 40, "dl2": 80, "bottle": 190 }
         },
         {
-          "name": "Rulandské Bílé 2023",
-          "description": "Výběr z hroznů, polosladké",
-          "values": "Zbytkový cukr 42.0g/l | Kyseliny 5.5g/l | Alkohol 11.0%",
+          "name": "Rulandské Bílé 2025",
+          "description": "Moravské zemské víno, polosladké",
+          "values": "Zbytkový cukr 35 g/l | Kyseliny 5,5 g/l | Alkohol 10 %",
           "prices": { "dl1": 40, "dl2": 80, "bottle": 190 }
         }
       ]
     },
     {
       "title": "Červená vína",
-      "labels": { "dl1": "1dl", "dl2": "2dl", "bottle": "0.75l" },
+      "labels": { "dl1": "1 dl", "dl2": "2 dl", "bottle": "0,75 l" },
       "items": [
         {
           "name": "André 2023",
           "description": "Fortifikované, sladké",
-          "values": "Zbytkový cukr 87g/l | Kyseliny 4.6g/l | Alkohol 19.0%",
-          "prices": { "dl1": 30, "dl2": 60, "bottle": 140 }
+          "values": "Zbytkový cukr 87,0 g/l | Kyseliny 4,6 g/l | Alkohol 19,0 %",
+          "prices": { "dl1": 40, "dl2": 80, "bottle": 220 }
+        },
+        {
+          "name": "Cuvée Rubín 2025",
+          "description": "Moravské zemské víno, polosladké",
+          "values": "Zbytkový cukr 23,0 g/l | Kyseliny 5,6 g/l | Alkohol 14,5 %",
+          "prices": { "dl1": 40, "dl2": 80, "bottle": 180 }
         }
       ]
     },
     {
-      "title": "Ostatní",
-      "labels": { "dl1": "1dl", "dl2": "2dl", "bottle": "0.75l" },
+      "title": "Růžová vína",
+      "labels": { "dl1": "1 dl", "dl2": "2 dl", "bottle": "0,75 l" },
       "items": [
         {
-          "name": "Mošt bílý 2023",
-          "description": "odrůda Veltín, sladké, alkohol 0%",
+          "name": "Frizzanté Zweigeltrebe 2025",
+          "description": "Moravské zemské víno, polosladké",
+          "values": "Zbytkový cukr 31 g/l | Kyseliny 6,2 g/l | Alkohol 12,5 %",
+          "prices": { "dl1": 40, "dl2": 80, "bottle": 220 }
+        }
+      ]
+    },
+    {
+      "title": "Nealkoholické nápoje",
+      "labels": { "dl1": "1 dl", "dl2": "2 dl", "bottle": "Cena / ks" },
+      "items": [
+        {
+          "name": "Mošt bílý 2025",
+          "description": "Odrůda Müller Thurgau, sladké, alkohol 0 %",
           "values": "",
-          "prices": { "dl1": 20, "dl2": 40, "bottle": 100 }
+          "prices": { "dl1": 30, "dl2": 60, "bottle": 120 }
         },
         {
-          "name": "Karafa Vody",
+          "name": "Limonáda dle denní nabídky",
           "description": "",
+          "values": "",
+          "prices": { "dl1": "-", "dl2": "-", "bottle": 60 }
+        },
+        {
+          "name": "Karafa vody 1 l",
+          "description": "Citron/pomeranč a máta",
           "values": "",
           "prices": { "dl1": "-", "dl2": "-", "bottle": 40 }
         }
