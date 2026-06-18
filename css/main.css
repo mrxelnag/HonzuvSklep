@@ -607,6 +607,14 @@ nav .logo img {
   gap: min(4vw, 200px);
 }
 
+.servicesPageContent .gridWrapper {
+  max-width: 700px;
+  grid-auto-flow: row;
+  grid-auto-columns: auto;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+}
+
 .perkName {
   text-transform: uppercase;
   padding-bottom: 1rem;
@@ -637,8 +645,8 @@ nav .logo img {
 }
 
 .servicesGridCol {
-  border: 1rem double white;
-  padding: 1em;
+  border: 0.6rem double white;
+  padding: 0.8em;
   text-align: center;
   position: relative;
 }
@@ -850,6 +858,19 @@ nav .logo img {
 @media screen and (max-width: 600px) {
   .gridWrapper {
     width: 100vw;
+  }
+
+  .servicesGridCol h3 {
+    font-size: 1.4rem;
+  }
+
+  .servicesGridCol .material-symbols-outlined {
+    font-size: 2rem;
+  }
+
+  .servicesGridCol .service {
+    font-size: 1rem;
+    gap: 1rem;
   }
 
   .perk {
